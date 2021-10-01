@@ -1,12 +1,16 @@
 // import functions and grab DOM elements
-const adjInput1 = document.getElementById('adjInput1');
+const adjInput1 = document.getElementById('adj-Input1');
 const button = document.getElementById('submit');
 const animalInput = document.getElementById('animal1');
-const inputs = document.getElementById('adj1');
+const add1 = document.getElementById('adj1');
+const add2 = document.getElementById('animal-input');
+
+
 // initialize global state
 button.addEventListener('click', () =>{
-    inputs.textContent = adjInput1.value;
-    inputs.textContent = animalInput.value;
+    add1.textContent = adjInput1.value;
+    add2.textContent = animalInput.value;
+
 
 });
 // set event listeners 
