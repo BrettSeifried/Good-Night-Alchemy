@@ -1,0 +1,41 @@
+#story {
+    display: none;
+    background-color: rgba(237, 237, 237, 0.719);
+    width: 400px;
+    justify-content: center;
+    margin-left: 10vw;
+    font-weight: bold;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    
+    
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+body {
+    background: rgba(208,228,245,0.83) url("https://art.pixilart.com/6d4ae39046e5ca7.gif") repeat fixed 50px -50px;
+
+}
+
+input {
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px 20px 20px 40vw;
+}
+
+button {
+    margin-left: 40vw;
+}
+
+span {
+    color: purple;
+    background-color: 
+}

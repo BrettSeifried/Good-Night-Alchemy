@@ -33,6 +33,19 @@ button.addEventListener('click', () =>{
     add9.textContent = verb1.value;
     add10.textContent = verb2.value;
 });
+
+const hidden = document.getElementById('story');
+const inputs = document.getElementById('inputs');
+const audio = document.getElementById('audio');
+  button.addEventListener('click', ()=> {
+    hidden.style.display = 'block';
+    inputs.style.display = 'none';
+    audio.play();
+  });
+
+
+
+
 // set event listeners 
   // get user input
   // use user input to update state 
